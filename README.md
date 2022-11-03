@@ -1,1 +1,3 @@
-# webpage-design-project
+## 웹 디자인 연습
+---
+`html`과 `css`만 사용하여 정적 웹 페이지를 구현

@@ -1,0 +1,50 @@
+:root {
+  --fs-tiny: 14px;
+  --fs-small: 16px;
+  --fs-middle: 20px;
+  --fs-large: 36px;
+
+  --gap1: 1rem;
+  --gap3: 3rem;
+  --gap5: 5rem;
+
+  --red: #FF5F5F;
+  --pink: #FFEBEB;
+  --light-green: #e6ff9c;
+  --light-gray: #F0F0F0;
+  --dark-gray: #A5A5A5;
+}
+
+* {
+  box-sizing: 0;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: var(--fs-small);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+input {
+  border: none;
+}
+
+.hidden {
+  display: none;
+}

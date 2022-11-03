@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>칵테일을 모아모아</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/form.css">
+</head>
+
+<body>
+  <section class="container login">
+    <h1 class="title login">
+      <a href="signup.html">회원가입</a>
+    </h1>
+
+    <form action="" method="GET" class="form signup">
+      <div class="id-group">
+        <input type="text" id="id" placeholder="아이디" required/>
+        <button type="button" class="btn id">중복 확인</button>
+      </div> 
+      <input type="password" id="pwd1" placeholder="비밀번호" required>
+      <input type="password" id="pwd2" placeholder="비밀번호 확인" required>
+      <input type="text" id="name" placeholder="이름" required/>
+      <input type="email" id="email" placeholder="이메일" required/>
+      <div class="phone-group">
+        <input type="tel" id="tel" placeholder="전화번호"/>
+        <button type="button" class="btn number">인증번호 받기</button>
+      </div>
+      <input type="number" id="number" placeholder="인증번호" required/>
+
+      <button type="submit" class="btn signup">회원가입</button>
+
+      <ul class="nav bottom">
+        <li><a href="login.html">로그인</a></li>
+        <li><a href="index.html">홈으로 돌아가기</a></li>
+      </ul>
+    </form>
+  </section>  
+</body>
+</html>
